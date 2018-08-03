@@ -3,7 +3,17 @@ image: ubuntu
 stack: node 8
 
 install:
-- yarn
+  - yarn
+
+cache:
+  - node_modules
 
 build_script:
-- yarn run build
+  - yarn run build
+
+artifacts:
+  - path: public
+    name: site
+
+test: off
+max_jobs: 1
