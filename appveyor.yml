@@ -1,0 +1,9 @@
+image: ubuntu
+
+stack: node 8
+
+install:
+- yarn
+
+build_script:
+- yarn run build
