@@ -1,0 +1,29 @@
+.site-header {
+    margin-bottom: 1.45rem;
+    background-color: firebrick;
+    position: relative;
+    max-height: 100px;
+}
+
+.site-header img {
+    max-height: 100px;
+}
+
+.site-header .__site-header-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.site-header .__container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+}
+
+.site-header .link {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, .75);
+}
