@@ -1,0 +1,12 @@
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '8.x'
+
+- task: Yarn@1
+  displayName: 'yarn install'
+  inputs:
+    command: 'yarn install'
